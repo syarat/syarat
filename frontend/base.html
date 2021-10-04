@@ -1,0 +1,41 @@
+{% load static %}
+{% load compress %}
+
+<!doctype html>
+<html lang="id_ID">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} {% endblock %} | Cari syarat apapun!</title>
+    <link rel="icon" href="{% static 'img/s.png' %}">
+{#    <link rel="stylesheet" href="https://syarat.id/">#}
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% include 'shared/meta.html' %}
+
+    {% include 'static/css.html' %}
+
+</head>
+<body>
+
+
+    {% include 'shared/nav.html' %}
+    <div class="container">
+        <div class="row">
+                {% block content %}
+
+
+                {% endblock %}
+        </div>
+    </div>
+    <div class="container">
+        {% include 'shared/footer.html' %}
+    </div>
+    {% include 'static/js.html' %}
+    <script>
+          document.body.addEventListener('htmx:configRequest', (event) => {
+            event.detail.headers['X-CSRFToken'] = '{{ csrf_token }}';
+          })
+    </script>
+</body>
+</html>

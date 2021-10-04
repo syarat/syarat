@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %} {{ i.category_name }} | Syarat-syarat Terlengkap! {% endblock %}
+{% block content %}
+
+    <div class="col-lg-8 col-12">
+        <div class="row">
+
+            <div>
+               <h3>Syarat-syarat terkait <i>"{{ i.category_name }}"</i></h3>
+            </div>
+
+        {% if c %}
+            {% for x in c %}
+                    <div class="card pt-2 pb-2 mb-2">
+                            <h3 class="post_title"><a href="{% url 'blog_detail' x.url %}">{{ x.title }}</a></h3>
+                        <div>
+                            <span class="date text-end">
+                                {{ x.updated | date:"d M Y"}}
+                            </span>
+                            <span><a class="tag_cloud" href="{% url 'category_details' x.category.category_url %}">{{ x.category }}</a></span>
+                        </div>
+                        <div>
+                            {{ x.article | slice:"100" | safe }} <a href="{% url 'blog_detail' x.url %}">Selanjutnya >></a>
+                        </div>
+
+                            <span>
+
+                                <img src="{% static 'img/tag.svg' %}" alt="">
+
+                                {% for tag in x.tag.all %}
+                                    <a class="tag_cloud tag" href="{% url 'tag_details' tag %}">#{{ tag }}</a>
+                                {% endfor %}
+                            </span>
+                    </div>
+            {% endfor %}
+
+        {% else %}
+            <div class="text-center mt-3">
+                <b>Belum ada syarat apapun dalam kategori tersebut.</b> <br>
+                <p>
+                    Ingin menyumbangkan syarat-syarat apapun yang kamu miliki? <br>
+                    Jangan sungkan untuk mengirimkan syarat terkait apapun yang kamu ketahui agar makin banyak orang yang tau.
+                </p>
+            </div>
+        {% endif %}
+        </div>
+    </div>
+
+    {% include 'blog/related.html' %}
+
+{% endblock %}

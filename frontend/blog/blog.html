@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}Semua syarat-syarat terlengkap!{% endblock %}
+{% block content %}
+
+    <div class="col-lg-8 col-12">
+        <div class="row mx-lg-0 mx-1">
+            <div>
+                <h3 class="text-center">Semua Syarat</h3>
+            </div>
+
+            {% for x in obj.object_list %}
+                <div class="card pt-2 pb-2 mb-2">
+                    <h3 class="post_title"><a href="{% url 'blog_detail' x.url %}">{{ x.title }}</a></h3>
+                    <div>
+                        <span class="date text-end">
+                            {{ x.updated | date:"d M Y"}}
+                        </span>
+                        <span><a class="tag_cloud" href="{% url 'category_details' x.category.category_url %}">{{ x.category }}</a></span>
+                    </div>
+                <div>
+                    {{ x.article | slice:"100" | safe }}
+                    <br>
+                    <a class="" href="{% url 'blog_detail' x.url %}">Selengkapnya >></a>
+                </div>
+                    <span>
+                        <img src="{% static 'img/tag.svg' %}" alt="">
+
+                        {% for tag in x.tag.all %}
+                            <a class="tag_cloud tag" href="{% url 'tag_details' tag %}">#{{ tag }}</a>
+                        {% endfor %}
+                    </span>
+                </div>
+            {% endfor %}
+
+            <div>
+                <div class="pagination">
+                    <span class="step-links">
+                        {% if obj.has_previous %}
+                            <a href="?page=1">&laquo; first</a>
+                            <a href="?page={{ obj.previous_page_number }}"> previous </a>
+                        {% endif %}
+
+                        <span class="current">
+                            Page {{ obj.number }} of {{ obj.paginator.num_pages }}.
+                        </span>
+
+                        {% if obj.has_next %}
+                            <a href="?page={{ obj.next_page_number }}"> next</a>
+                            <a href="?page={{ obj.paginator.num_pages }}"> last &raquo;</a>
+                        {% endif %}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include 'blog/related.html' %}
+
+
+
+
+{% endblock %}

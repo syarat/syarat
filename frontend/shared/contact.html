@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %} Contact {% endblock %}
+
+{% block content %}
+
+    <div class="col-md-6 col-12">
+        <div class="row">
+            <div>
+                <h1 class="text-center">Kontakt</h1>
+            </div>
+            <div class="content">
+		<form  method="post" class="" action="https://submit-form.com/<Your_token_goes_here>">
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input id="email" type="email" class="form-control" placeholder="aku@suka.dia" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Judul</label>
+                        <input id="subject" type="text" class="form-control" placeholder="Masukkan judul" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Pesan</label>
+                        <textarea id="message" name="message" class="form-control" placeholder="Masukkan isi pesan..." rows="3" required></textarea>
+                    </div>
+
+{#                        <div id="captcha" class="captcha"><script>createCaptcha();</script></div>#}
+{#                        <div class="restart">#}
+{#                            <a href="#" onclick="createCaptcha()">Klik di sini</a>#}
+{#                        </div>#}
+{#                        <div class="input">#}
+{#                            <input#}
+{#                                    type="text"#}
+{#                                    name="reCaptcha"#}
+{#                                    id="reCaptcha"#}
+{#                                    placeholder="Ketik ulang captcha di atas"#}
+{#                            />#}
+{#                        </div>#}
+{#                        <div id="errCaptcha" class="errmsg"></div>#}
+{#                        <input onclick="validateCaptcha();" class="btn btn-success btn-sm" type="button" value="Kirim">#}
+
+                        <button class="btn btn-success btn-sm" type="submit">Kirim</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-12">
+        <div class="row">
+            <div class="contact_content">
+		<h2><a href='/apa-itu-syarat?'>Apa itu syarat? >></a></h3>
+                Syarat.id adalah sebuah platform yang menyediakan berbagai macam syarat yang dibutuhkan untuk sebuah keperluan.
+                Kritik dan masukkan dapat langsung anda sampaikan melalui form kontak di samping, atau melalui email:
+                bantuan@syarat.id
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

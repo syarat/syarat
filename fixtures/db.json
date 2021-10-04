@@ -1,0 +1,1918 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-08-06T18:44:38.752Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "bank",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-08-06T18:44:45.026Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "surat",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-08-06T18:44:56.896Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "syarat",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-08-06T18:45:29.393Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Finansial",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-08-06T18:45:53.695Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Kendaraan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-08-06T18:46:13.177Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Universitas",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-08-06T18:46:38.191Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Pekerjaan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-08-06T18:51:46.606Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "asdasdasdasdsaasdasd",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-08-07T07:15:49.604Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Lorem ipsum dolor sit amet 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Article\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2021-08-07T07:16:14.912Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Lorem ipsum dolor sit amet 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2021-08-07T07:16:45.404Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Lorem ipsum dolor sit amet, 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2021-08-07T07:16:53.507Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Lorem ipsum dolor sit amet 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Action\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2021-08-07T07:17:44.009Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Lorem ipsum dolor sit amet 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Action\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2021-08-07T07:19:39.311Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Lorem ipsum dolor sit amet 4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2021-08-07T16:39:31.498Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Lorem ipsum dolor sit amet 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Article\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2021-08-07T16:40:21.826Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Lorem ipsum dolor sit amet 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Article\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2021-08-08T12:48:51.090Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Lorem ipsum dolor sit amet 4 asdasdasd sadsa sa dsadas",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2021-08-11T12:59:14.998Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Lorem ipsum dolor sit amet 4 asdasdasd sadsa sa dsadas",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Article\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2021-08-13T16:18:18.565Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "{'Otomotif', 'Properti', 'Job', 'Hukum'}",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2021-08-13T16:45:03.468Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "11",
+        "object_repr": "kredit rumah",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tag url\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2021-08-13T17:07:42.600Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Lorem ipsum dolor sit amet 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2021-08-13T17:08:29.636Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Lorem ipsum dolor sit amet 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Article\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2021-08-13T17:23:29.489Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "asdsadsad",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2021-08-13T17:25:57.016Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "asdsadsad",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Action\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2021-08-13T18:07:26.276Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "asdasdddddsww",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2021-08-13T18:07:42.102Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "asdasdddddsww",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Action\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2021-08-13T18:09:02.683Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "pinjaman online",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2021-08-13T18:09:43.200Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "asdasdddddsww",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2021-08-13T18:11:43.456Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "asdasdddddsww",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tag\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2021-08-13T18:13:53.430Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "pinjaman online",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2021-08-13T20:23:56.510Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Lorem ipsum dolor sit amet 4Lorem ipsum dolor sit amet 4Lorem ipsum dolor sit amet 4Lorem ipsum dolor sit amet 4Lorem ipsum dolor sit amet 4Lorem ipsu",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2021-08-13T20:24:10.927Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Lorem ipsum dolor sit amet 4Lorem ipsum dolor sit amet 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2021-08-14T16:18:35.876Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "Syarat Pembuatan SIM A",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Url\", \"Tag\", \"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2021-08-14T16:20:48.415Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "Syarat Pembuatan SIM B",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Url\", \"Category\", \"Tag\", \"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2021-08-14T16:21:48.814Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Syarat KPR Atau Kredit Pinjaman Rumah",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Url\", \"Tag\", \"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2021-08-14T16:22:37.364Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Syarat Pengajuan-kredit-mobil",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Url\", \"Category\", \"Tag\", \"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2021-08-14T16:23:04.774Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Syarat KPR Atau Kredit Pinjaman Rumah",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Url\", \"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2021-08-14T16:23:31.278Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Syarat Pengajuan Kredit Mobil Baru",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2021-08-14T16:23:44.023Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Syarat Pengajuan Kredit Mobil Baru",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Url\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2021-08-14T16:23:54.210Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Syarat Pengajuan Kredit Mobil",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Url\", \"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2021-08-14T16:24:52.270Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Syarat Daftar PNS Terbaru 2021",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Url\", \"Category\", \"Tag\", \"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2021-08-14T16:26:08.956Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Syarat Bepergian Menggunakan Pesawat Selama Masa Pandemi 2021",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Url\", \"Category\", \"Tag\", \"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2021-08-14T16:28:43.550Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "37",
+        "object_repr": "pandemi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2021-08-14T16:29:18.252Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "Syarat Bepergian Selama Masa Pandemi 2021 Terbaru",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2021-08-14T17:01:04.004Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "8",
+        "object_repr": "Syarat Kredit Motor Terbaru 2021",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2021-08-14T17:01:22.065Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "8",
+        "object_repr": "Syarat Kredit Motor Terbaru 2021",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Article\", \"Action\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2021-08-14T17:02:22.261Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "8",
+        "object_repr": "Syarat Kredit Motor Terbaru 2021",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Article\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2021-08-14T17:04:22.591Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "8",
+        "object_repr": "Syarat Kredit Motor Terbaru 2021",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Article\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2021-08-14T17:06:23.793Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "Syarat Bepergian Selama Masa Pandemi 2021 Terbaru",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Article\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2021-08-14T17:07:27.443Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "Syarat Perjalanan Terbaru dari/ke Luar Negeri Selama Pandemi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Url\", \"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2021-08-14T17:07:58.551Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "Syarat Perjalanan Terbaru dari/ke Luar Negeri Selama Pandemi",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2021-08-14T17:08:08.418Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "Syarat Perjalanan Terbaru dari/ke Luar Negeri Selama Pandemi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Url\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2021-08-14T17:09:45.360Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "18",
+        "object_repr": "Perjalanan dan Traveling",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2021-08-14T17:09:48.233Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "Syarat Perjalanan Terbaru dari/ke Luar Negeri Selama Pandemi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2021-08-14T17:14:50.008Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "Syarat Pembuatan SIM A",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Article\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2021-08-14T17:15:59.655Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "Syarat dan Biaya Pembuatan SIM Baru Dan Perpanjangan",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Url\", \"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2021-08-14T17:16:20.519Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "Syarat Pembuatan SIM B",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2021-08-14T17:17:13.035Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "Syarat dan Biaya Pembuatan SIM Baru Dan Perpanjangan",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Article\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2021-08-15T06:33:19.757Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "Syarat Perjalanan Terbaru dari/ke Luar Negeri Selama Pandemi",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2021-08-15T06:33:56.579Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Syarat Bepergian Menggunakan Pesawat Selama Masa Pandemi 2021",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2021-08-15T15:50:20.061Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Syarat Bepergian Menggunakan Pesawat Selama Masa Pandemi 2021",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Article\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2021-08-15T15:51:14.912Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Syarat Bepergian Menggunakan Pesawat Selama Masa Pandemi 2021",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Article\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2021-08-15T15:51:30.269Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Syarat Bepergian Menggunakan Pesawat Selama Masa Pandemi 2021",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Article\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2021-08-15T15:51:44.820Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Syarat Bepergian Menggunakan Pesawat Selama Masa Pandemi 2021",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Article\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2021-08-15T15:55:55.523Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Syarat Daftar PNS Terbaru 2021",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Action\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add category",
+        "content_type": 7,
+        "codename": "add_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change category",
+        "content_type": 7,
+        "codename": "change_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete category",
+        "content_type": 7,
+        "codename": "delete_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view category",
+        "content_type": 7,
+        "codename": "view_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add tag",
+        "content_type": 8,
+        "codename": "add_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change tag",
+        "content_type": 8,
+        "codename": "change_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete tag",
+        "content_type": 8,
+        "codename": "delete_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view tag",
+        "content_type": 8,
+        "codename": "view_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add blog",
+        "content_type": 9,
+        "codename": "add_blog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change blog",
+        "content_type": 9,
+        "codename": "change_blog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete blog",
+        "content_type": 9,
+        "codename": "delete_blog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view blog",
+        "content_type": 9,
+        "codename": "view_blog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add captcha store",
+        "content_type": 10,
+        "codename": "add_captchastore"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change captcha store",
+        "content_type": 10,
+        "codename": "change_captchastore"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete captcha store",
+        "content_type": 10,
+        "codename": "delete_captchastore"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view captcha store",
+        "content_type": 10,
+        "codename": "view_captchastore"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$FZ0ztFR5cRw21HflCMCJpE$P4hYxENfsudllaXLjKIYuPSH72qQAJRVpzpzKtp7Gbc=",
+        "last_login": "2021-08-15T15:48:48.721Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "forwardedspam@yandex.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-08-06T18:41:20.139Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "blog",
+        "model": "category"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "blog",
+        "model": "tag"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "blog",
+        "model": "blog"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "captcha",
+        "model": "captchastore"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "2tmpqaquam9g02oybophspo1o9stjoib",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSE8WgZcuu83NMMMStVAUtqV8d-VpAtd3ntOzkvMuG953lta54XFWWhx-v0i0iOVDviO5VYl1bKtS5RdkQdtcqqcnpfD_QtkbLlnLXmMyOAHBj2ShWCcH4JNBMTGGwsQgov2mkgFSppAjcp5q7_DaRbvD9QiN1s:1mEZsk:MpxzYYfx1t3V-o9A-bMwb4flvS5TfQxXb7NT-vxhG0E",
+        "expire_date": "2021-08-27T16:18:06.571Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "959lqjjvk35b0rbyzwj77yfv26itzkxd",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSE8WgZcuu83NMMMStVAUtqV8d-VpAtd3ntOzkvMuG953lta54XFWWhx-v0i0iOVDviO5VYl1bKtS5RdkQdtcqqcnpfD_QtkbLlnLXmMyOAHBj2ShWCcH4JNBMTGGwsQgov2mkgFSppAjcp5q7_DaRbvD9QiN1s:1mDnoq:mQCTGbUxSNhTgv3wA1vr1tTpdi7p3VRDvWoB95u-6t8",
+        "expire_date": "2021-08-25T12:58:52.492Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "axfcj4swoax428ggkp8ghrwvv16zblbc",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSE8WgZcuu83NMMMStVAUtqV8d-VpAtd3ntOzkvMuG953lta54XFWWhx-v0i0iOVDviO5VYl1bKtS5RdkQdtcqqcnpfD_QtkbLlnLXmMyOAHBj2ShWCcH4JNBMTGGwsQgov2mkgFSppAjcp5q7_DaRbvD9QiN1s:1mFINU:XLEvr3jvU7AWWQzIR5FkQkNQkHSoG1TzJKfzOI7HRXc",
+        "expire_date": "2021-08-29T15:48:48.798Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "e3f1btupldyeji3g77ywdtp6mem4n3z0",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSE8WgZcuu83NMMMStVAUtqV8d-VpAtd3ntOzkvMuG953lta54XFWWhx-v0i0iOVDviO5VYl1bKtS5RdkQdtcqqcnpfD_QtkbLlnLXmMyOAHBj2ShWCcH4JNBMTGGwsQgov2mkgFSppAjcp5q7_DaRbvD9QiN1s:1mCPLj:5uYGOgZZq0-RUSbVaYrVY3cUl3TeH6ZdDgLDW9LbNak",
+        "expire_date": "2021-08-21T16:39:03.460Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "eb0je8fy837hot2gzavzse1cll0kgiwn",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSE8WgZcuu83NMMMStVAUtqV8d-VpAtd3ntOzkvMuG953lta54XFWWhx-v0i0iOVDviO5VYl1bKtS5RdkQdtcqqcnpfD_QtkbLlnLXmMyOAHBj2ShWCcH4JNBMTGGwsQgov2mkgFSppAjcp5q7_DaRbvD9QiN1s:1mC4no:AjaGd1NfwIcMAN4gnwOOcKnxhFKDnwiGIG97QqyWUL8",
+        "expire_date": "2021-08-20T18:42:40.875Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "gln00a96pnmrxb2p6j9fbmvt46hbwc8t",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSE8WgZcuu83NMMMStVAUtqV8d-VpAtd3ntOzkvMuG953lta54XFWWhx-v0i0iOVDviO5VYl1bKtS5RdkQdtcqqcnpfD_QtkbLlnLXmMyOAHBj2ShWCcH4JNBMTGGwsQgov2mkgFSppAjcp5q7_DaRbvD9QiN1s:1mEwLO:eTdppgCg6Oez7gxJW7JVMc7GGUi_PC6bTENKtajuujQ",
+        "expire_date": "2021-08-28T16:17:10.349Z"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 1,
+    "fields": {
+        "category_url": "finance",
+        "category_name": "Finansial"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 2,
+    "fields": {
+        "category_url": "kendaraan",
+        "category_name": "Kendaraan"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 3,
+    "fields": {
+        "category_url": "university",
+        "category_name": "Universitas"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 4,
+    "fields": {
+        "category_url": "pekerjaan",
+        "category_name": "Pekerjaan"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 6,
+    "fields": {
+        "category_url": "otomotif",
+        "category_name": "Otomotif"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 7,
+    "fields": {
+        "category_url": "properti",
+        "category_name": "Properti"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 8,
+    "fields": {
+        "category_url": "hukum",
+        "category_name": "Hukum"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 9,
+    "fields": {
+        "category_url": "agama",
+        "category_name": "Agama"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 10,
+    "fields": {
+        "category_url": "dapur",
+        "category_name": "Dapur"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 11,
+    "fields": {
+        "category_url": "pendidikan",
+        "category_name": "Pendidikan"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 12,
+    "fields": {
+        "category_url": "jual-beli",
+        "category_name": "Jual Beli"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 13,
+    "fields": {
+        "category_url": "sewa",
+        "category_name": "Sewa"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 14,
+    "fields": {
+        "category_url": "perusahaan",
+        "category_name": "Perusahaan"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 15,
+    "fields": {
+        "category_url": "teknologi",
+        "category_name": "Teknologi"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 16,
+    "fields": {
+        "category_url": "budaya",
+        "category_name": "Budaya"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 17,
+    "fields": {
+        "category_url": "pariwisata",
+        "category_name": "Pariwisata"
+    }
+},
+{
+    "model": "blog.category",
+    "pk": 18,
+    "fields": {
+        "category_url": "traveling",
+        "category_name": "Perjalanan dan Traveling"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 1,
+    "fields": {
+        "tag_url": "bank",
+        "tag_name": "bank"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 2,
+    "fields": {
+        "tag_url": "surat",
+        "tag_name": "surat"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 3,
+    "fields": {
+        "tag_url": "syarat",
+        "tag_name": "syarat"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 4,
+    "fields": {
+        "tag_url": "kredit",
+        "tag_name": "kredit"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 5,
+    "fields": {
+        "tag_url": "kpr",
+        "tag_name": "kpr"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 7,
+    "fields": {
+        "tag_url": "mobil",
+        "tag_name": "mobil"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 8,
+    "fields": {
+        "tag_url": "motor",
+        "tag_name": "motor"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 9,
+    "fields": {
+        "tag_url": "freelance",
+        "tag_name": "freelance"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 10,
+    "fields": {
+        "tag_url": "kerja",
+        "tag_name": "kerja"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 11,
+    "fields": {
+        "tag_url": "kredit-rumah",
+        "tag_name": "kredit rumah"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 12,
+    "fields": {
+        "tag_url": "jasa-online",
+        "tag_name": "jasa online"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 13,
+    "fields": {
+        "tag_url": "jual-beli-online",
+        "tag_name": "jual beli online"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 14,
+    "fields": {
+        "tag_url": "perjanjian",
+        "tag_name": "perjanjian"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 15,
+    "fields": {
+        "tag_url": "teknologi",
+        "tag_name": "teknologi"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 16,
+    "fields": {
+        "tag_url": "mahasiswa",
+        "tag_name": "mahasiswa"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 17,
+    "fields": {
+        "tag_url": "pendidikan",
+        "tag_name": "pendidikan"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 18,
+    "fields": {
+        "tag_url": "magang",
+        "tag_name": "magang"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 19,
+    "fields": {
+        "tag_url": "cpns",
+        "tag_name": "cpns"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 20,
+    "fields": {
+        "tag_url": "pns",
+        "tag_name": "pns"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 21,
+    "fields": {
+        "tag_url": "swasta",
+        "tag_name": "swasta"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 22,
+    "fields": {
+        "tag_url": "menginap",
+        "tag_name": "menginap"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 23,
+    "fields": {
+        "tag_url": "pajak",
+        "tag_name": "pajak"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 24,
+    "fields": {
+        "tag_url": "ecommerce",
+        "tag_name": "ecommerce"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 25,
+    "fields": {
+        "tag_url": "blog",
+        "tag_name": "blog"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 26,
+    "fields": {
+        "tag_url": "adsense",
+        "tag_name": "adsense"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 27,
+    "fields": {
+        "tag_url": "youtube",
+        "tag_name": "youtube"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 28,
+    "fields": {
+        "tag_url": "twitter",
+        "tag_name": "twitter"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 29,
+    "fields": {
+        "tag_url": "facebook",
+        "tag_name": "facebook"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 30,
+    "fields": {
+        "tag_url": "tiktok",
+        "tag_name": "tiktok"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 31,
+    "fields": {
+        "tag_url": "bepergian",
+        "tag_name": "bepergian"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 32,
+    "fields": {
+        "tag_url": "traveling",
+        "tag_name": "traveling"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 33,
+    "fields": {
+        "tag_url": "tiket",
+        "tag_name": "tiket"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 34,
+    "fields": {
+        "tag_url": "keluarga",
+        "tag_name": "keluarga"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 35,
+    "fields": {
+        "tag_url": "polisi",
+        "tag_name": "polisi"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 36,
+    "fields": {
+        "tag_url": "sekolah",
+        "tag_name": "sekolah"
+    }
+},
+{
+    "model": "blog.tag",
+    "pk": 37,
+    "fields": {
+        "tag_url": "pandemi",
+        "tag_name": "pandemi"
+    }
+},
+{
+    "model": "blog.blog",
+    "pk": 1,
+    "fields": {
+        "updated": "2021-08-15T15:51:44.815Z",
+        "url": "syarat-bepergian-menggunaka-pesawat-selama-pandemi",
+        "category": 18,
+        "title": "Syarat Bepergian Menggunakan Pesawat Selama Masa Pandemi 2021",
+        "thumbnail": "",
+        "article": "<p><strong>Syarat.id</strong> - Update lagi syarat perjalanan penumpang pesawat terbang selama&nbsp;Pemberlakuan Pembatasan Kegiatan Masyarakat (PPKM) diperpanjang pada Agustus 2021. Syarat perjalanan naik pesawat terbang selama PPKM diperpanjang ini menjadi lebih ringan bagi calon penumpang.</p>\r\n\r\n<p>Seperti diketahui, PPKM untuk wilayah Jawa dan Bali kembali diperpanjang hingga 16 Agustus 2021. Sedangkan PPKM di luar wilayah Jawa Bali diperpanjang hingga 23 Agustus 2021.</p>\r\n\r\n<ul>\r\n\t<li>Dalam penerapan PPKM Level 1-4 Jawa-Bali (hingga 16 Augustus 2021), traveler dari dan menuju kota di Pulau Jawa dan Bali, wajib melampirkan Kartu/Sertifikat Vaksinasi COVID-19 minimal 1 dosis dan hasil tes PCR yang sampelnya diambil maksimal 2x24 jam sebelum penerbangan. Khusus untuk penerbangan intra kota/kabupaten di Jawa dan Bali, bagi traveler dengan status vaksinasi lengkap 2 dosis dapat menunjukkan hasil tes negatif antigen yang sampelnya diambil maksimal 1x24 jam sebelum keberangkatan.</li>\r\n\t<li>Dalam penerapan PPKM Level 1-4 luar Jawa-Bali (hingga 23 Augustus 2021), traveler dari/menuju kota-kota di luar Pulau Jawa dan Bali, wajib melampirkan Kartu/Sertifikat Vaksinasi COVID-19 minimal 1 dosis dan hasil tes PCR yang sampelnya diambil maksimal 2x24 jam sebelum penerbangan.</li>\r\n\t<li>Selama perpanjangan PPKM Level 1-4, penerbangan domestik hanya diizinkan bagi keberangkatan penumpang berusia 12 tahun atau lebih.</li>\r\n\t<li>Syarat penerbangan di laman ini diperbarui berdasarkan aturan bepergian dari/menuju destinasi sesuai kondisi PPKM pada destinasi tersebut, Level 1, 2, 3, maupun 4. Cek syarat penerbangan terbaru dengan mengisi destinasi pada kolom di atas.</li>\r\n\t<li>Pastikan Anda telah membaca dan memenuhi seluruh syarat penerbangan agar diperbolehkan terbang.</li>\r\n\t<li>Laman ini senantiasa diperbarui dan kami akan terus memantau perkembangan kondisi dan memperbarui laman ini jika ada peraturan terbaru. Mohon pantau terus laman ini untuk mendapatkan info terkini.</li>\r\n</ul>",
+        "action": "Publish",
+        "created": "2021-08-06T18:51:46.593Z",
+        "tag": [
+            32,
+            33
+        ]
+    }
+},
+{
+    "model": "blog.blog",
+    "pk": 2,
+    "fields": {
+        "updated": "2021-08-15T15:55:55.517Z",
+        "url": "syarat-daftar-pns-2021",
+        "category": 4,
+        "title": "Syarat Daftar PNS Terbaru 2021",
+        "thumbnail": "",
+        "article": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum curabitur vitae nunc sed velit dignissim sodales ut eu. Egestas pretium aenean pharetra magna ac placerat vestibulum. Aenean vel elit scelerisque mauris pellentesque. Curabitur vitae nunc sed velit. Placerat vestibulum lectus mauris ultrices eros in cursus turpis. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Integer malesuada nunc vel risus commodo viverra maecenas. Purus in mollis nunc sed. Odio eu feugiat pretium nibh ipsum consequat nisl. Sapien nec sagittis aliquam malesuada bibendum. Turpis egestas maecenas pharetra convallis posuere morbi leo urna. Sit amet venenatis urna cursus eget nunc. Eu mi bibendum neque egestas congue quisque egestas. Vitae turpis massa sed elementum tempus egestas sed. Ac tortor vitae purus faucibus ornare suspendisse sed.</p>\r\n\r\n<p>Ut placerat orci nulla pellentesque dignissim. Sit amet nisl suscipit adipiscing bibendum est ultricies integer quis. Elementum tempus egestas sed sed risus pretium quam vulputate. Vel pretium lectus quam id. Scelerisque eu ultrices vitae auctor eu. Quis viverra nibh cras pulvinar mattis nunc. Laoreet sit amet cursus sit amet. Sit amet consectetur adipiscing elit ut aliquam purus. Amet dictum sit amet justo donec enim diam vulputate. Purus gravida quis blandit turpis cursus. Blandit cursus risus at ultrices. Sit amet mattis vulputate enim nulla. Eget nunc scelerisque viverra mauris. Mi proin sed libero enim sed. Nulla at volutpat diam ut venenatis. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Sit amet aliquam id diam maecenas ultricies mi eget. Vitae congue eu consequat ac felis. Laoreet suspendisse interdum consectetur libero id faucibus. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum.</p>\r\n\r\n<p>Adipiscing commodo elit at imperdiet dui. Quam quisque id diam vel. Habitant morbi tristique senectus et netus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris. Proin nibh nisl condimentum id venenatis a condimentum. Ornare aenean euismod elementum nisi. Platea dictumst quisque sagittis purus sit amet. Et ligula ullamcorper malesuada proin libero. Interdum consectetur libero id faucibus nisl. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Ultricies mi quis hendrerit dolor magna. Ut tellus elementum sagittis vitae et leo duis ut diam. Erat imperdiet sed euismod nisi porta lorem mollis aliquam. Nisi lacus sed viverra tellus in. Cursus mattis molestie a iaculis. Ac felis donec et odio pellentesque diam volutpat commodo sed. Aliquam faucibus purus in massa tempor nec feugiat nisl.</p>\r\n\r\n<p>Neque convallis a cras semper auctor neque vitae tempus quam. Tellus at urna condimentum mattis pellentesque id nibh tortor id. Sagittis eu volutpat odio facilisis mauris sit amet massa. Nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis. Pretium fusce id velit ut. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Pharetra massa massa ultricies mi quis hendrerit dolor magna eget. Et netus et malesuada fames ac. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi.</p>\r\n\r\n<p>Iaculis eu non diam phasellus vestibulum lorem sed risus. Scelerisque eu ultrices vitae auctor eu. Aliquet nec ullamcorper sit amet risus nullam. Viverra orci sagittis eu volutpat odio. Id faucibus nisl tincidunt eget nullam. Imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor. Eu nisl nunc mi ipsum faucibus vitae aliquet. Sagittis id consectetur purus ut faucibus pulvinar. Mi bibendum neque egestas congue quisque. Semper feugiat nibh sed pulvinar. Lectus mauris ultrices eros in cursus.</p>",
+        "action": "Draft",
+        "created": "2021-08-07T07:16:14.903Z",
+        "tag": [
+            3,
+            10,
+            19,
+            20
+        ]
+    }
+},
+{
+    "model": "blog.blog",
+    "pk": 3,
+    "fields": {
+        "updated": "2021-08-14T16:23:54.204Z",
+        "url": "syarat-pengajuan-kredit-mobil",
+        "category": 6,
+        "title": "Syarat Pengajuan Kredit Mobil",
+        "thumbnail": "",
+        "article": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum curabitur vitae nunc sed velit dignissim sodales ut eu. Egestas pretium aenean pharetra magna ac placerat vestibulum. Aenean vel elit scelerisque mauris pellentesque. Curabitur vitae nunc sed velit. Placerat vestibulum lectus mauris ultrices eros in cursus turpis. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Integer malesuada nunc vel risus commodo viverra maecenas. Purus in mollis nunc sed. Odio eu feugiat pretium nibh ipsum consequat nisl. Sapien nec sagittis aliquam malesuada bibendum. Turpis egestas maecenas pharetra convallis posuere morbi leo urna. Sit amet venenatis urna cursus eget nunc. Eu mi bibendum neque egestas congue quisque egestas. Vitae turpis massa sed elementum tempus egestas sed. Ac tortor vitae purus faucibus ornare suspendisse sed.</p>\r\n\r\n<p>Ut placerat orci nulla pellentesque dignissim. Sit amet nisl suscipit adipiscing bibendum est ultricies integer quis. Elementum tempus egestas sed sed risus pretium quam vulputate. Vel pretium lectus quam id. Scelerisque eu ultrices vitae auctor eu. Quis viverra nibh cras pulvinar mattis nunc. Laoreet sit amet cursus sit amet. Sit amet consectetur adipiscing elit ut aliquam purus. Amet dictum sit amet justo donec enim diam vulputate. Purus gravida quis blandit turpis cursus. Blandit cursus risus at ultrices. Sit amet mattis vulputate enim nulla. Eget nunc scelerisque viverra mauris. Mi proin sed libero enim sed. Nulla at volutpat diam ut venenatis. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Sit amet aliquam id diam maecenas ultricies mi eget. Vitae congue eu consequat ac felis. Laoreet suspendisse interdum consectetur libero id faucibus. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum.</p>\r\n\r\n<p>Adipiscing commodo elit at imperdiet dui. Quam quisque id diam vel. Habitant morbi tristique senectus et netus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris. Proin nibh nisl condimentum id venenatis a condimentum. Ornare aenean euismod elementum nisi. Platea dictumst quisque sagittis purus sit amet. Et ligula ullamcorper malesuada proin libero. Interdum consectetur libero id faucibus nisl. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Ultricies mi quis hendrerit dolor magna. Ut tellus elementum sagittis vitae et leo duis ut diam. Erat imperdiet sed euismod nisi porta lorem mollis aliquam. Nisi lacus sed viverra tellus in. Cursus mattis molestie a iaculis. Ac felis donec et odio pellentesque diam volutpat commodo sed. Aliquam faucibus purus in massa tempor nec feugiat nisl.</p>\r\n\r\n<p>Neque convallis a cras semper auctor neque vitae tempus quam. Tellus at urna condimentum mattis pellentesque id nibh tortor id. Sagittis eu volutpat odio facilisis mauris sit amet massa. Nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis. Pretium fusce id velit ut. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Pharetra massa massa ultricies mi quis hendrerit dolor magna eget. Et netus et malesuada fames ac. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi.</p>\r\n\r\n<p>Iaculis eu non diam phasellus vestibulum lorem sed risus. Scelerisque eu ultrices vitae auctor eu. Aliquet nec ullamcorper sit amet risus nullam. Viverra orci sagittis eu volutpat odio. Id faucibus nisl tincidunt eget nullam. Imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor. Eu nisl nunc mi ipsum faucibus vitae aliquet. Sagittis id consectetur purus ut faucibus pulvinar. Mi bibendum neque egestas congue quisque. Semper feugiat nibh sed pulvinar. Lectus mauris ultrices eros in cursus.</p>",
+        "action": "Publish",
+        "created": "2021-08-07T07:16:45.396Z",
+        "tag": [
+            1,
+            3,
+            4,
+            7,
+            8
+        ]
+    }
+},
+{
+    "model": "blog.blog",
+    "pk": 4,
+    "fields": {
+        "updated": "2021-08-14T16:23:04.767Z",
+        "url": "syarat-pengajuan-kpr-kredit-pinjaman-rumah",
+        "category": 7,
+        "title": "Syarat KPR Atau Kredit Pinjaman Rumah",
+        "thumbnail": "",
+        "article": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum curabitur vitae nunc sed velit dignissim sodales ut eu. Egestas pretium aenean pharetra magna ac placerat vestibulum. Aenean vel elit scelerisque mauris pellentesque.&nbsp;</p>\r\n\r\n<p>Ut placerat orci nulla pellentesque dignissim:</p>\r\n\r\n<p>-&nbsp;pellentesque</p>\r\n\r\n<p>-&nbsp;pellentesque</p>\r\n\r\n<p>-&nbsp;pellentesque</p>\r\n\r\n<p>-&nbsp;pellentesque</p>\r\n\r\n<p>tidak mungkin, adalah, jika. kemudian</p>\r\n\r\n<p>Ut placerat orci nulla pellentesque dignissim. Sit amet nisl suscipit adipiscing bibendum est ultricies integer quis. Elementum tempus egestas sed s</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<ul>\r\n\t<li>pellentesque</li>\r\n\t<li>pellentesque</li>\r\n\t<li>pellentesque</li>\r\n\t<li>pellentesque</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>ed risus pretium quam vulputate. Vel pretium lectus quam id. Scelerisque eu ultrices vitae auctor eu. Quis viverra nibh cras pulvinar mattis nunc. Laoreet sit amet cursus sit amet. Sit amet consectetur adipiscing elit ut aliquam purus. Amet dictum sit amet justo donec enim diam vulputate. Purus gravida quis blandit turpis cursus. Blandit cursus risus at ultrices. Sit amet mattis vulputate enim nulla. Eget nunc scelerisque viverra mauris. Mi proin sed libero enim sed. Nulla at volutpat diam ut venenatis. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Sit amet aliquam id diam maecenas ultricies mi eget. Vitae congue eu consequat ac felis. Laoreet suspendisse interdum consectetur libero id faucibus. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum.</p>\r\n\r\n<p>Adipiscing commodo elit at imperdiet dui. Quam quisque id diam vel. Habitant morbi tristique senectus et netus et. Quam viverra orci sagittis eu volutpat odio facilisis mauris. Proin nibh nisl condimentum id venenatis a condimentum. Ornare aenean euismod elementum nisi. Platea dictumst quisque sagittis purus sit amet. Et ligula ullamcorper malesuada proin libero. Interdum consectetur libero id faucibus nisl. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Ultricies mi quis hendrerit dolor magna. Ut tellus elementum sagittis vitae et leo duis ut diam. Erat imperdiet sed euismod nisi porta lorem mollis aliquam. Nisi lacus sed viverra tellus in. Cursus mattis molestie a iaculis. Ac felis donec et odio pellentesque diam volutpat commodo sed. Aliquam faucibus purus in massa tempor nec feugiat nisl.</p>\r\n\r\n<p>Neque convallis a cras semper auctor neque vitae tempus quam. Tellus at urna condimentum mattis pellentesque id nibh tortor id. Sagittis eu volutpat odio facilisis mauris sit amet massa. Nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis. Pretium fusce id velit ut. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Pharetra massa massa ultricies mi quis hendrerit dolor magna eget. Et netus et malesuada fames ac. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi.</p>\r\n\r\n<p>Iaculis eu non diam phasellus vestibulum lorem sed risus. Scelerisque eu ultrices vitae auctor eu. Aliquet nec ullamcorper sit amet risus nullam. Viverra orci sagittis eu volutpat odio. Id faucibus nisl tincidunt eget nullam. Imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor. Eu nisl nunc mi ipsum faucibus vitae aliquet. Sagittis id consectetur purus ut faucibus pulvinar. Mi bibendum neque egestas congue quisque. Semper feugiat nibh sed pulvinar. Lectus mauris ultrices eros in cursus.</p>",
+        "action": "Publish",
+        "created": "2021-08-07T07:19:39.305Z",
+        "tag": [
+            1,
+            2,
+            4,
+            5,
+            11
+        ]
+    }
+},
+{
+    "model": "blog.blog",
+    "pk": 6,
+    "fields": {
+        "updated": "2021-08-14T17:17:13.023Z",
+        "url": "syarat-dan-biaya-pembuatan-sim-baru-dan-perpanjangan",
+        "category": 6,
+        "title": "Syarat dan Biaya Pembuatan SIM Baru Dan Perpanjangan",
+        "thumbnail": "",
+        "article": "<p>Jakarta&nbsp;-&nbsp;Surat Izin Mengemudi&nbsp;(SIM) menjadi salah satu dokumen yang wajib dibawa saat kita mengendarai kendaraan bermotor. Bagi yang belum punya SIM dan sudah memenuhi syarat usia pembuatan SIM, maka harus segera membuat SIM. Sementara bagi kamu yang masa berlaku SIM-nya habis, jangan lupa diperpanjang ya. Berikut rincian&nbsp;biaya bikin SIM baru&nbsp;dan&nbsp;biaya perpanjangan SIM.</p>\r\n\r\n<p>Sebagai informasi, pembuatan SIM dan perpanjangan&nbsp;SIM&nbsp;kini bisa dilakukan dengan dua metode, online melalui aplikasi Digital Korlantas Polri dan datang langsung ke Satpas SIM.</p>\r\n\r\n<p>Ada lima jenis SIM yang berlaku di Indonesia berdasarkan kategorinya, yakni SIM A, SIM B, SIM C, SIM D, dan SIM Internasional. Perihal SIM diatur dalam Peraturan Kapolri No. 9 tahun 2012, di mana penggolongan SIM dibedakan berdasarkan fungsi kendaraan bermotor dan berat kendaraan bermotor. Selain itu penggolongan SIM ada dua jenis, yakni SIM Perseorangan dan SIM Umum.</p>\r\n\r\n<p>Secara online, pembuatan dan perpanjangan SIM bisa dilakukan melalui aplikasi Digital Korlantas Polri. Untuk saat ini, layanan SIM Online bisa digunakan untuk perpanjangan SIM A dan SIM C.Mulai April 2021 ini, pembuatan dan perpanjangan SIM bisa dilakukan secara online. Cara ini tentunya lebih memudahkan pemilik kendaraan yang ingin memperpanjang SIM dan membuat SIM baru.</p>\r\n\r\n<p>Cara memperpanjang SIM dan bikin SIM baru secara online bisa dilihat pada&nbsp;link berikut ini.</p>\r\n\r\n<p>Membuat SIM baru atau memperpanjang SIM masih bisa dilakukan secara offline. Caranya masih sama, yakni mendatangi Satpas SIM.</p>\r\n\r\n<h3>Syarat pembuatan SIM secara offline:</h3>\r\n\r\n<p>1. Untuk SIM A, pemohon harus berusia 17 tahun. Untuk pemohon BI dan BII harus berusia 20 tahun, SIM C dan D berusia minimal 16 tahun dan SIM umum paling tidak berusia 21 tahun</p>\r\n\r\n<p>2. Kelengkapan dokumen KTP asli dan fotokopi (4 lembar) serta Surat Keterangan Sehat Jasmani dan Rohani dari dokter</p>\r\n\r\n<p>3. Isi formulir permohonan SIM disertai fotokopi KTP dan SIM asli (proses perpanjangan)</p>\r\n\r\n<p>4. Ujian SIM teori</p>\r\n\r\n<p>5. Ujian SIM praktik.</p>\r\n\r\n<p>Biaya pembuatan SIM baru dan biaya perpanjangan SIM diatur dalam Peraturan Pemerintah Republik Indonesia Nomor 60 Tahun 2016 tentang Jenis dan Tarif atas Jenis Penerimaan Negara Bukan Pajak yang Berlaku Pada Kepolisian Negara Republik Indonesia.Lalu bagaimana dengan biaya penerbitan SIM baru dan biaya untuk perpanjangan SIM?</p>\r\n\r\n<h3>Selengkapnya, berikut biaya penerbitan SIM baru:</h3>\r\n\r\n<p>SIM A: Rp 120.000<br />\r\nSIM B I: Rp 120.000<br />\r\nSIM B II: Rp 120.000<br />\r\nSIM C : Rp 100.000<br />\r\nSIM C I: Rp 100.000<br />\r\nSIM C II: Rp 100.000<br />\r\nSIM D: Rp 50.000<br />\r\nSIM D I: Rp 50.000<br />\r\nSIM Internasional: Rp 250.000.</p>\r\n\r\n<h3>Biaya perpanjangan SIM, daftarnya sebagai berikut:</h3>\r\n\r\n<p>SIM A: Rp 80.000<br />\r\nSIM B I: Rp 80.000<br />\r\nSIM B II: Rp 80.000<br />\r\nSIM C: Rp 75.000<br />\r\nSIM C I: Rp 75.000<br />\r\nSIM C II: Rp 75.000<br />\r\nSIM D: Rp 30.000<br />\r\nSIM D I: Rp 30.000<br />\r\nSIM Internasional: Rp 225.000.</p>\r\n\r\n<p><a href=\"https://oto.detik.com/berita/d-5618708/resmi-daftar-lengkap-biaya-bikin-sim-baru-dan-biaya-perpanjangan-sim\">source</a></p>",
+        "action": "Publish",
+        "created": "2021-08-13T18:07:26.273Z",
+        "tag": [
+            2,
+            3,
+            7,
+            8,
+            35
+        ]
+    }
+},
+{
+    "model": "blog.blog",
+    "pk": 7,
+    "fields": {
+        "updated": "2021-08-15T06:33:19.751Z",
+        "url": "syarat-perjalanan-terbaru-dari-dan-dari-luar-negeri-selama-masa-pandemi",
+        "category": 18,
+        "title": "Syarat Perjalanan Terbaru dari/ke Luar Negeri Selama Pandemi",
+        "thumbnail": "",
+        "article": "<p>Jakarta&nbsp;-&nbsp;Satgas Penanganan COVID-19 menerbitkan aturan baru perjalanan internasional dari dan keluar Indonesia. Kebijakan itu tercantum dalam Surat Edaran Nomor 18 Tahun 2021 tentang Protokol Kesehatan Perjalanan Internasional pada Masa Pandemi COVID-19.</p>\r\n\r\n<p>Tak banyak perubahan yang signifikan dalam aturan ini. Perubahan terjadi hanya pada syarat testing negatif yang kini diterapkan di semua level PPKM untuk kedatangan dan keberangkatan internasional.</p>\r\n\r\n<p>Dengan diberlakukannya SE No. 18 tahun 2021 dan maka SE No 8/2021 yang sebelumnya mengatur hal yang sama dinyatakan tidak berlaku.</p>\r\n\r\n<p>&quot;Surat edaran ini selaras dengan dengan ketentuan tentang perpanjangan PPKM yang mulai berlaku. Para pelaku perjalanan mesti diatur agar mobilitas yang terjadi tidak menjadi sumber penularan baru COVID-19,&quot; tutur Juru Bicara Satgas Penanganan Covid-19 Profesor Wiku Adisasmito, di Jakarta, dalam keterangan tertulis dikutip Rabu (11/8/2021).</p>\r\n\r\n<h2>Berikut ini persyaratan perjalanan ke luar negeri:</h2>\r\n\r\n<p>1. Persyaratan testing di moda transportasi udara disamakan di setiap level PPKM. Di semua level daerah menggunakan 2 x 24 jam RT PCR atau 1 x 24 jam Antigen.</p>\r\n\r\n<p>2. Persyaratan surat vaksinasi minimal menggunakan dosis pertama dan berlaku untuk wilayah semua level PPKM.</p>\r\n\r\n<p>3. Beberapa kelompok pelaku perjalanan internasional khusus mendapat pengecualian syarat vaksinasi. Mulai dari WNA pemegang visa diplomatik dan dinas sesuai mekanisme TCA, WNA yang masuk ke Indonesia hanya untuk transit penerbangan keluar dari wilayah Indonesia, WNA usia anak di bawah 18 tahun, WNA pemegang KITAS dan KITAP, dan pelaku perjalanan dengan kondisi kesehatan khusus yang tidak bisa divaksinasi.</p>\r\n\r\n<p>4. WNA yang belum divaksinasi dan dapat dilayani vaksinasinya di Indonesia adalah mereka yang berusia 12-17 tahun serta pemegang KITAS dan KITAP.</p>\r\n\r\n<p>Selain itu, untuk penetapan tempat karantina dan pemberlakuan tes pembanding untuk RT-PCR kedua beberapa pesyaratan yang harus diikuti para pelaku perjalanan, antara lain:</p>\r\n\r\n<p>1. Penentuan tempat akomodasi karantina perlu mendapatkan rekomendasi Satgas Penanganan COVID-19 setelah memenuhi syarat dari PHRI dan Kementerian/Dinas Kesehatan terkait urusan sertifikasi protkes COVID-19.</p>\r\n\r\n<p>2. Dapat melakukan tes PCR pembanding terhadap hasil pemeriksaan ke-2 (yang dilakukan pada hari ke-7 karantina) dengan mengisi form dari KKP/Kementerian bidang kesehatan dengan biaya ditanggung oleh pelaku perjalanan sendiri.</p>\r\n\r\n<p>3. Pemeriksaan tes PCR pembanding dilakukan di RS yang telah ditetapkan (RSCM, RSPAD, RS Polri untuk wilayah Jakarta). Sementara untuk di daerah dapat dilakukan di fasilitas kesehatan milik pemerintah seperti RS, Puskesmas atau Lab.</p>\r\n\r\n<p><a href=\"https://finance.detik.com/berita-ekonomi-bisnis/d-5678105/syarat-terbaru-perjalanan-darike-luar-negeri-selama-pandemi\">Source</a></p>",
+        "action": "Publish",
+        "created": "2021-08-14T16:29:18.243Z",
+        "tag": [
+            3,
+            31,
+            37
+        ]
+    }
+},
+{
+    "model": "blog.blog",
+    "pk": 8,
+    "fields": {
+        "updated": "2021-08-14T17:04:22.584Z",
+        "url": "syarat-kredit-motor-terbaru-2021",
+        "category": 1,
+        "title": "Syarat Kredit Motor Terbaru 2021",
+        "thumbnail": "",
+        "article": "<p>Umumnya, syarat kredit motor terbagi ke dalam beberapa kategori, mulai dari kategori karyawan, wiraswasta, profesional, hingga perusahaan. Masing-masing kategori ini memiliki syarat kredit motor yang berbeda. Oleh karena itu, penting bagi Sahabat untuk mengetahui jenis kategori seperti apa yang cocok untuk Sahabat saat mengajukan kredit motor di perusahaan atau lembaga keuangan tersebut.&nbsp;</p>\r\n\r\n<p>Namun, sebelum mempersiapkan syarat kredit motor, sebaiknya Sahabat melakukan simulasi kredit terlebih dahulu untuk mengetahui berapa bunga yang harus dibayar, berapa lama tenor atau jangka waktu pinjaman, seperti apa mekanisme pelunasannya, dan apakah ada biaya tambahan lain atau tidak. Simulasi kredit motor ini bisa Sahabat lakukan pada website masing-masing lembaga keuangan yang sudah terdaftar dan diawasi oleh Otoritas Jasa Keuangan (OJK). Setelah mengetahui simulasinya, otomatis Sahabat pun semakin yakin untuk mengajukan cicilan sesuai dengan kategori syarat kredit motor di bawah ini:&nbsp;</p>\r\n\r\n<h2>Syarat Kredit Motor Untuk Karyawan:</h2>\r\n\r\n<p>Berikut ini beberapa syarat kredit motor pada kategori karyawan yang umum ditentukan oleh lembaga keuangan, antara lain:</p>\r\n\r\n<ul>\r\n\t<li>Warga Negara Indonesia (WNI)</li>\r\n\t<li>Lama kerja minimal 1 tahun</li>\r\n\t<li>Usia minimal 21 tahun / sudah menikah / pernah menikah</li>\r\n\t<li>Fotokopi KTP pemohon yang masih berlaku</li>\r\n\t<li>Fotokopi KTP pasangan yang masih berlaku (jika sudah menikah)</li>\r\n\t<li>Fotokopi Kartu Keluarga (KK) atau akte nikah</li>\r\n\t<li>Fotokopi bukti kepemilikan rumah atau bukti tempat tinggal (rekening listrik/ telepon/ PAM/ PBB/ AJB)</li>\r\n\t<li>Fotokopi bukti penghasilan berupa slip gaji atau surat keterangan gaji (slip gaji minimal 3 bulan terakhir)</li>\r\n\t<li>Fotokopi NPWP jika pembiayaan dana lebih dari 50 juta</li>\r\n\t<li>Usia maksimal pemohon pada saat lunas kredit adalah 55 tahun&nbsp;</li>\r\n</ul>\r\n\r\n<h2>Syarat Kredit Motor untuk Wiraswasta:</h2>\r\n\r\n<p>Jika Sahabat berprofesi sebagai wiraswasta, berikut ini syarat kredit motor yang harus dipenuhi:</p>\r\n\r\n<ul>\r\n\t<li>Warga Negara Indonesia (WNI)</li>\r\n\t<li>Lama usaha minimal 2 tahun</li>\r\n\t<li>Usia minimal 21 tahun / sudah menikah / pernah menikah</li>\r\n\t<li>Fotokopi KTP pemohon yang masih berlaku</li>\r\n\t<li>Fotokopi KTP pasangan yang masih berlaku (jika sudah menikah)</li>\r\n\t<li>Fotokopi Kartu Keluarga (KK) atau akte nikah</li>\r\n\t<li>Fotokopi bukti kepemilikan rumah atau bukti tempat tinggal (rekening listrik, telepon, PAM, PBB, AJB)</li>\r\n\t<li>Fotokopi rekening tabungan/ rekening koran/ kwitansi/ nota usaha/ rekap pendapatan usaha</li>\r\n\t<li>Foto tempat atau aktivitas usaha yang disertai oleh fotokopi SIUP/ TDP/ TDR/ SKDP/ SITU/ surat asli keterangan usaha dari RT/ RW/ Kelurahan/ Kecamatan/ Surat lapak/ dokumen lain yang menunjukkan kepemilikan usaha/ denah tempat usaha yang telah diberi paraf oleh CA</li>\r\n\t<li>Fotokopi NPWP jika pembiayaan lebih dari 50 juta</li>\r\n\t<li>Usia maksimal pemohon pada saat lunas kredit adalah 60 tahun</li>\r\n</ul>\r\n\r\n<h2>Syarat Kredit Motor untuk Profesional:</h2>\r\n\r\n<p>Selain karyawan dan wiraswasta, syarat kredit motor juga berlaku untuk para profesional yang meliputi:</p>\r\n\r\n<ul>\r\n\t<li>Warga Negara Indonesia (WNI)</li>\r\n\t<li>Lama usaha minimal 2 tahun</li>\r\n\t<li>Usia minimal 21 tahun / sudah menikah / pernah menikah</li>\r\n\t<li>Fotokopi KTP pemohon yang masih berlaku</li>\r\n\t<li>Fotokopi KTP pasangan yang masih berlaku (jika sudah menikah)</li>\r\n\t<li>Fotokopi Kartu Keluarga (KK) atau akte nikah</li>\r\n\t<li>Fotokopi bukti kepemilikan rumah atau bukti tempat tinggal (rekening listrik/ telepon/ PAM/ PBB/ AJB)</li>\r\n\t<li>Fotokopi rekening tabungan/ rekening koran/ rekap pendapatan profesi/ daftar pasien atau klien</li>\r\n\t<li>Foto tempat atau aktivitas usaha yang disertai oleh fotokopi SIUP/ TDP/ TDR/ SKDP/ SITU/ surat asli keterangan usaha dari RT/ RW/ Kelurahan/ Kecamatan/ Surat lapak/ dokumen lain yang menunjukkan kepemilikan usaha/ denah tempat usaha yang telah diberi paraf oleh CA</li>\r\n\t<li>Fotokopi NPWP jika pembiayaan lebih dari 50 juta</li>\r\n\t<li>Usia maksimal pemohon pada saat lunas kredit adalah 60 tahun</li>\r\n</ul>\r\n\r\n<h2>Syarat Kredit Motor untuk Perusahaan:</h2>\r\n\r\n<p>Kategori syarat kredit motor selanjutnya adalah perusahaan yang meliputi persyaratan berikut ini:</p>\r\n\r\n<ul>\r\n\t<li>Lama usaha minimal 2 tahun</li>\r\n\t<li>Fotokopi KTP direktur / komisaris / pejabat lainnya sesuai akta yang berwenang</li>\r\n\t<li>Fotokopi akte pendirian perusahaan (ditambah perubahan-perubahan dan pengesahannya bila ada)</li>\r\n\t<li>Fotokopi bukti usaha berupa TDP (Tanda Daftar Perusahaan) dan SIUP (Surat Izin Usaha dan Perdagangan), atau TDR (Tanda Daftar Rekanan), atau SKDP (Surat Keterangan Domisili Perusahaan) yang masih berlaku</li>\r\n\t<li>Fotokopi bukti keuangan berupa rekening tabungan atau rekening koran 3 bulan terakhir&nbsp;</li>\r\n\t<li>Fotokopi NPWP</li>\r\n</ul>\r\n\r\n<p>Itulah beberapa syarat kredit motor yang terbagi ke dalam 4 kategori. Namun, syarat-syarat tersebut kemungkinan akan berbeda antara satu lembaga keuangan dengan lembaga lainnya. Oleh karena itu, cermati terlebih dahulu syarat yang diberikan oleh lembaga keuangan yang bersangkutan.&nbsp;</p>",
+        "action": "Publish",
+        "created": "2021-08-14T17:01:03.995Z",
+        "tag": [
+            1,
+            3,
+            4,
+            7,
+            8
+        ]
+    }
+}
+]

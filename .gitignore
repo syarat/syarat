@@ -1,0 +1,15 @@
+env
+core/.env
+.idea
+*.log
+staticfiles
+.vscode
+*.pyc
+__pycache__
+__pycache__/
+*/__pycache__/
+debug.log
+db.sqlite3-journal
+dbs.sqlite3
+media
+*.swp

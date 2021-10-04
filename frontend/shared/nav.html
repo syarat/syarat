@@ -1,0 +1,51 @@
+{% load static %}
+<style>
+    .shitty_form {
+        display: inline;
+    }
+    .shitty_form .form-control {
+        display: inline;
+        width: auto;
+    }
+    .search {
+        color: dimgrey !important;
+        vertical-align: baseline;
+    }
+</style>
+<div class="col-12 base_nav">
+    <header class="d-flex justify-content-center py-3">
+        {% with url_name=request.resolver_match.url_name %}
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="{% url 'home' %}" class="nav-link {% if url_name == 'home' %}active{% endif %}">Home</a></li>
+                <li class="nav-item"><a href="{% url 'blog' %}" class="nav-link {% if url_name == 'blog' %}active{% endif %}">Semua Syarat</a></li>
+                <li class="nav-item"><a href="{% url 'categories' %}" class="nav-link {% if url_name == 'categories' %}active{% endif %}">Kategori</a></li>
+                <li class="nav-item"><a href="{% url 'tags' %}" class="nav-link {% if url_name == 'tags' %}active{% endif %}">Tag</a></li>
+            </ul>
+        {% endwith %}
+
+
+        <form method="get" action="{% url 'search_query' %}" class="form-inline shitty_form px-2 d-none d-lg-block">
+            {% csrf_token %}
+            {{ search.form.q }}
+            {#            <input class="form-control search" type="search" placeholder="Search" aria-label="Search">#}
+            <button class="search btn my-2 my-sm-0" type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+            </button>
+        </form>
+
+        <form method="get" action="{% url 'search_query' %}" class="px-2 d-block d-lg-none search_mobile">
+                {{ search.form.q }}
+            {#            <input class="form-control search" type="search" placeholder="Search" aria-label="Search">#}
+{#            <button class="search btn my-2 my-sm-0" type="submit">#}
+{#                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">#}
+{#                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>#}
+{#                </svg>#}
+{#            </button>#}
+        </form>
+    </header>
+</div>
+
+
+

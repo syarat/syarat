@@ -1,0 +1,30 @@
+{% load static %}
+<div class="col-lg-4 col-12">
+    <div class="row">
+        <div class="text-center">
+            <h5>Syarat-syarat lainnya</h5>
+        </div>
+
+        {% if related %}
+            <div class="related_list">
+                <ul>
+                    {% for i in related %}
+                        <li class="related_list_items"><a href="{% url 'blog_detail' i.url %}">{{ i.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+    </div>
+    <div class="row">
+        <div class="text-center">
+            <h5>Partners</h5>
+        </div>
+
+        <div class="related_list">
+            <div>
+                <img style="width: 100%; height: auto;" src="{% static 'img/s.png' %}" alt="">
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} {{ i.title }} {% endblock %}
+{% block content %}
+
+    <div class="col-lg-8 col-12">
+        <div class="row mx-lg-0 mx-1 card">
+            <h1 class="post_title_detail text-center">{{ i.title }}</h1>
+            <div class="col-lg-12 col-12">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="{% static 'img/category.svg' %}" alt="">
+                        <span class="">
+                            {{ i.category }}
+                        </span>
+                    </div>
+                    <div class="col-lg-4">
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="text-end">
+                            <span class="date">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" fill="currentColor" class="bi bi-calendar-week" viewBox="0 0 16 16">
+                                  <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                                </svg>
+                                {{ i.updated | date:"d M Y"}}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="pb-lg-3">
+
+                <img src="{% static 'img/tag.svg' %}" alt="">
+
+                {% for i in t %}
+                    <a class="tag_cloud tag" href="{% url 'tag_details' i.tag_url %}">#{{ i.tag_name }}</a>
+                {% endfor %}
+            </span>
+            <div>
+                {{ i.article | safe }}
+            </div>
+            <div class="mb-3">
+                {% include 'shared/share.html' %}
+            </div>
+        </div>
+    </div>
+
+    {% include 'blog/related.html' %}
+
+{% endblock %}
