@@ -1,18 +1,20 @@
-<!-- Primary Meta Tags -->
-<title>Syarat-syarat terlengkap | Cari syarat apapun!</title>
-<meta name="title" content="Syarat-syarat terlengkap | Cari syarat apapun!">
-<meta name="description" content="Temukan semua syarat yang dibutuhkan untuk sebuah keperluan.">
-
 <!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.syarat.id/">
-<meta property="og:title" content="Syarat-syarat terlengkap | Cari syarat apapun!">
-<meta property="og:description" content="Temukan semua syarat yang dibutuhkan untuk sebuah keperluan.">
-<meta property="og:image" content="">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="id_ID">
+<meta property="article:publisher" content="https://www.facebook.com/syarathq">
+<meta property="article:section" content="{{ i.category }}">
+<meta property="og:site_name" content="Syarat.ID">
+<meta property="og:updated_time" content="{{ i.updated }}">
+<meta property="og:url" content="https://www.facebook.com/SyaratHQ/">
+<meta property="og:title" content="{{ i.title }} | Kumpulan syarat-syarat terlengkap.">
+<meta property="og:description" content="{{ i.article|striptags|truncatechars:160 }}">
+<meta property="og:image" content="{% if i.thumbnail %}{{ i.thumbnail.url }}{% endif %}">
+<meta property="og:image:alt" content="{{ i.title }}">
 
 <!-- Twitter -->
+<meta name="twitter:site" content="@syarathq">
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://www.syarat.id/">
-<meta property="twitter:title" content="Syarat-syarat terlengkap | Cari syarat apapun!">
-<meta property="twitter:description" content="Temukan semua syarat yang dibutuhkan untuk sebuah keperluan.">
-<meta property="twitter:image" content="">
+<meta property="twitter:url" content="https://twitter.com/SyaratHQ/">
+<meta property="twitter:title" content="{{ i.title }} | Kumpulan syarat-syarat terlengkap.">
+<meta property="twitter:description" content="{{ i.article|striptags|truncatechars:160 }}">
+<meta property="twitter:image" content="{% if i.thumbnail %}{{ i.thumbnail.url }}{% endif %}">

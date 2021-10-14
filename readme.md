@@ -2,6 +2,13 @@
 
 Syarat.ID is a content aggregator website that gathering all informations with the specific keyword: "syarat" from the internet.
 
+SEO and Performance
+
+![Syarat Measure](/static/syarat-measure.png)
+
+![Syarat Pingdom](/static/syarat-pingdom.png)
+
+
 This repository contains source code from the [syarat.id](https://www.syarat.id) site.
 
 To run this project on your own local machine, please follow the installation steps below:
